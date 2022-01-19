@@ -12,31 +12,31 @@ console.log(`hello my name is ${firstName[1]} ${lastName[1]} and I am ${age[1]} 
 
 //MEDIUM
 
-let input = prompt("enter a number 1-12");
+let input = Number(prompt("enter a number 1-12"));
 
-if (input == 1){
+if (input === 1){
     console.log("January");
-}else if (input ==2){
+}else if (input === 2){
     console.log("Febuary");
-}else if(input == 3){
+}else if(input === 3){
     console.log("March");
-}else if (input == 4){
+}else if (input === 4){
     console.log("April");
-}else if(input == 5){
+}else if(input === 5){
     console.log("May");
-}else if (input == 6){
+}else if (input === 6){
     console.log("June");
-}else if (input == 7){
+}else if (input === 7){
     console.log("July");
-}else if (input == 8){
+}else if (input === 8){
     console.log("August");
-}else if (input == 9){
+}else if (input === 9){
     console.log("September");
-}else if (input == 10){
+}else if (input === 10){
     console.log("October");
-}else if(input == 11){
+}else if(input === 11){
     console.log("November");
-}else if (input == 12){
+}else if (input === 12){
     console.log("December");
 }else{
     alert("invalid number please enter a number 1-12")
